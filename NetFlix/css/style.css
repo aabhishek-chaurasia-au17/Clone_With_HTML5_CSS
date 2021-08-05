@@ -110,4 +110,21 @@ body{
 .nav-avtar{
     width: 30px;
     object-fit: contain;
+    padding-right: 40px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    z-index: 1;
+    transition-timing-function: ease-in-out;
+    transition: all 0.5s;
+}
+
+.nav-black{
+    background-color: #111;
 }
