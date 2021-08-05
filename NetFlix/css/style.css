@@ -97,8 +97,17 @@ body{
 }
 
 .banner-shadow {
-    margin-top: 145px;
+    margin-top: 40px;
     height: 7.4rem;
-    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 2.61), #111);
 }
-  
+
+.nav-logo{
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav-avtar{
+    width: 30px;
+    object-fit: contain;
+}
