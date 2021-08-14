@@ -156,6 +156,11 @@ body {
 
 /* end sidebar */
 
+.left-side-fix{
+  position: fixed;
+  
+}
+
 /* feed start */
 /* story start */
 .story {
@@ -194,22 +199,32 @@ body {
 /* story end */
 
 .feed {
-  flex: 1;
+  flex: 2;
   padding: 30px 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 290px;
+  margin-right: 280px;
 }
 
 .sidebar {
   padding: 25px 10px;
-  flex: 0.33;
+  flex: 0.32;
   height: 600px;
   /* overflow-x: auto; */
 }
 
 /* feed end */
+
+.side-right{
+  position: fixed;
+  right: 0px;
+  overflow-y: scroll;
+  height: 93vh;
+  width: 330px;
+}
 
 .main-section {
   display: flex;
@@ -351,6 +366,39 @@ body {
   height: 36px;
   border-radius: 100%;
   border: 3px solid #2e89ff;
+}
+
+.sidebarRow-rigth-top{
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.birth-row{
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+
+.birth-row h4{ 
+  font-weight: bold;
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.birth-row h4 img{ 
+  width: 25px; 
+  height: 25px; 
+  margin-right: 6px;
+}
+
+.birth-row p{ 
+  margin-left: 10px;
 }
 
 /* sidebarRow right start */
